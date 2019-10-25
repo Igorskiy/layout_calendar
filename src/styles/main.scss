@@ -15,7 +15,7 @@
 
 @each $dayOfWeek in $weekDays {
   .calendar-#{$dayOfWeek} :first-child {
-    margin-left: (($size + 1px) *($y - 1)) + 1px;
+    margin-left: (($size + 1px) *($y - 1));
   }
   $y: $y + 1;
 }
@@ -24,14 +24,13 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  max-width: 7 * ($size + 2 * $margin + 2 * $border);
+  max-width: 7 * ($size + 2 * $margin);
+  margin: auto;
 
 }
 
 .calendar > div {
-  $size: 100px;
-  $margin: 0.5px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   width: $size;
   height: $size;
   background-color: #eee;
