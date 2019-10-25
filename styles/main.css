@@ -110,25 +110,25 @@ body {
   content: "31"; }
 
 .calendar-mon :first-child {
-  margin-left: 0px; }
+  margin-left: 0.5px; }
 
 .calendar-tue :first-child {
-  margin-left: 101px; }
+  margin-left: 101.5px; }
 
 .calendar-wed :first-child {
-  margin-left: 202px; }
+  margin-left: 202.5px; }
 
 .calendar-thu :first-child {
-  margin-left: 303px; }
+  margin-left: 303.5px; }
 
 .calendar-fri :first-child {
-  margin-left: 404px; }
+  margin-left: 404.5px; }
 
 .calendar-sat :first-child {
-  margin-left: 505px; }
+  margin-left: 505.5px; }
 
 .calendar-sun :first-child {
-  margin-left: 606px; }
+  margin-left: 606.5px; }
 
 .calendar {
   display: -webkit-box;
