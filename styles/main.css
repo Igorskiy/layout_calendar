@@ -110,25 +110,25 @@ body {
   content: "31"; }
 
 .calendar-mon :first-child {
-  margin-left: 1px; }
+  margin-left: 0px; }
 
 .calendar-tue :first-child {
-  margin-left: 102px; }
+  margin-left: 101px; }
 
 .calendar-wed :first-child {
-  margin-left: 203px; }
+  margin-left: 202px; }
 
 .calendar-thu :first-child {
-  margin-left: 304px; }
+  margin-left: 303px; }
 
 .calendar-fri :first-child {
-  margin-left: 405px; }
+  margin-left: 404px; }
 
 .calendar-sat :first-child {
-  margin-left: 506px; }
+  margin-left: 505px; }
 
 .calendar-sun :first-child {
-  margin-left: 607px; }
+  margin-left: 606px; }
 
 .calendar {
   display: -webkit-box;
@@ -141,11 +141,12 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  max-width: 721px; }
+  max-width: 707px;
+  margin: auto; }
 
 .calendar > div {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100px;
   height: 100px;
   background-color: #eee;
